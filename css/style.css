@@ -1,9 +1,208 @@
 h1
     {
-        color:darkred;
+        color: white;
     }
 
 body
     {
-        background-color: coral;
+        background-color: whitesmoke;
     }
+
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url("images/about me background 5.jpg");
+    filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: thistle;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+a
+    {
+        text-decoration: none;
+        padding-right: 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12pt;
+        font-weight: 500;
+    }
+
+    a:hover
+    {
+        color: black;
+        background-color: transparent;
+    }
+
+.logo
+    {
+        width: 30%;
+        height: 70px;
+        float: left;
+    }
+
+.menu
+    {
+        width: 100%;
+        height: 40px;
+        float: top;
+        position: relative;
+        background-color: rgb(225, 235, 235);
+    }
+  
+.menulist
+{
+    width: 100%;
+    text-align: right;
+    padding: 8px;
+    margin-right: 20px;
+    
+}
+
+
+.content1
+{
+    height: 150px;
+    align-items: center;
+    position: relative;
+    display:flex;
+    margin-top: 700px;
+    margin-left: 300px;
+    font-size: 20pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.content2
+    {
+        height: 90px;
+        align-items: right center;
+        position: relative;
+        display: flex;
+        margin-left: 300px;
+        font-size: 20pt;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.content3
+    {
+        height: 100px;
+        align-items: center;
+        position: relative;
+        display: flex;
+        margin-left: 150px;
+        font-size: 20pt;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+nav {
+    width: 65%;
+    height: 40px;
+    float: top;
+    float: right;
+    padding-bottom: -10px;
+    position: relative;
+    margin-top: -55px;
+}
+
+
+
+
+table, tr, td, th
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+table
+    {
+        width: 600px;
+        height: 400px;
+        margin-left: 357px;
+        margin-top: 50px;
+    }
+td
+    {
+        padding: 5px;
+    }
+
+th
+    {
+        background-color: black;
+        color: white;
+    }
+
+tr
+    {
+        background-color: rgba(207, 125, 125, 0.911);
+    }
+
+tr:nth-child(odd)
+    {
+        background-color: indianred;
+    }
+
+tr:hover
+    {
+        background-color: lightyellow;
+    }
+
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    
+    background-image: url(images/contactmebackground.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+    
